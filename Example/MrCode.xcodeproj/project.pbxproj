@@ -31,7 +31,7 @@
 		04A28BA1F6F65872C633B727 /* Pods-MrCode_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MrCode_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MrCode_Example/Pods-MrCode_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		285C2BCB186623134A7BCC34 /* Pods_MrCode_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MrCode_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B573315F444A614902A88EC /* Pods-MrCode_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MrCode_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MrCode_Tests/Pods-MrCode_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		3B0649AC17EAC2A06234ACE7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		3B0649AC17EAC2A06234ACE7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		5061E4E1D952B5438DA2FB0B /* Pods-MrCode_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MrCode_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MrCode_Tests/Pods-MrCode_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* MrCode_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MrCode_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -43,10 +43,10 @@
 		607FACE51AFB9204008FA782 /* MrCode_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MrCode_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		6A7A775FEDABC0FCA34B171D /* MrCode.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = MrCode.podspec; path = ../MrCode.podspec; sourceTree = "<group>"; };
+		6A7A775FEDABC0FCA34B171D /* MrCode.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = MrCode.podspec; path = ../MrCode.podspec; sourceTree = "<group>"; };
 		A88F80B69B0800AADA74633D /* Pods_MrCode_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MrCode_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D43892B5743785AAE5314DE1 /* Pods-MrCode_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MrCode_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-MrCode_Example/Pods-MrCode_Example.release.xcconfig"; sourceTree = "<group>"; };
-		DAE95FB52ACE2E0065FC8CD6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		DAE95FB52ACE2E0065FC8CD6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -215,10 +215,12 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 42533R2QMN;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 42533R2QMN;
 						LastSwiftMigration = 0900;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -517,6 +519,7 @@
 			baseConfigurationReference = 04A28BA1F6F65872C633B727 /* Pods-MrCode_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 42533R2QMN;
 				INFOPLIST_FILE = MrCode/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -532,6 +535,7 @@
 			baseConfigurationReference = D43892B5743785AAE5314DE1 /* Pods-MrCode_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 42533R2QMN;
 				INFOPLIST_FILE = MrCode/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -546,6 +550,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5061E4E1D952B5438DA2FB0B /* Pods-MrCode_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 42533R2QMN;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -567,6 +572,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2B573315F444A614902A88EC /* Pods-MrCode_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 42533R2QMN;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",

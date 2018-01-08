@@ -1,6 +1,6 @@
 # MrCode
 
-[![CI Status](http://img.shields.io/travis/Ryan Hiroaki Tsukamoto/MrCode.svg?style=flat)](https://travis-ci.org/Ryan Hiroaki Tsukamoto/MrCode)
+[![CI Status](http://img.shields.io/travis/71241NW123CK/MrCode-Swift.svg?style=flat)](https://travis-ci.org/71241NW123CK/MrCode-Swift)
 [![Version](https://img.shields.io/cocoapods/v/MrCode.svg?style=flat)](http://cocoapods.org/pods/MrCode)
 [![License](https://img.shields.io/cocoapods/l/MrCode.svg?style=flat)](http://cocoapods.org/pods/MrCode)
 [![Platform](https://img.shields.io/cocoapods/p/MrCode.svg?style=flat)](http://cocoapods.org/pods/MrCode)

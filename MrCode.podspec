@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'MrCode'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of MrCode.'
+  s.summary          = 'A simple Swift way to represent and scan machine readable codes.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,17 +18,17 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+MrCode provides a nice Swift representation of machine readable codes in various formats.  It also provides a `UIView` subclass for scanning machine readable codes.
                        DESC
 
-  s.homepage         = 'https://github.com/Ryan Hiroaki Tsukamoto/MrCode'
+  s.homepage         = 'https://github.com/71241NW123CK/MrCode-Swift'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Ryan Hiroaki Tsukamoto' => 'backward6@gmail.com' }
-  s.source           = { :git => 'https://github.com/Ryan Hiroaki Tsukamoto/MrCode.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/71241NW123CK/MrCode-Swift.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.3'
 
   s.source_files = 'MrCode/Classes/**/*'
   
