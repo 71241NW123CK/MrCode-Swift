@@ -209,6 +209,8 @@ public class MrCodeScanner: UIView {
         }
     }
     
+    public var captureDevicePosition: AVCaptureDevice.Position = .back
+
     private let metadataQueue = DispatchQueue(label: "party.treesquaredcode.MrCode.Scanner")
     private var captureSession: AVCaptureSession!
     private var videoPreviewLayer: AVCaptureVideoPreviewLayer?
@@ -221,9 +223,8 @@ public class MrCodeScanner: UIView {
         if isActive {
             return
         }
-        let maybeCaptureDevice = AVCaptureDevice.default(for: AVMediaType.video)
         guard
-            let captureDevice = maybeCaptureDevice,
+            let captureDevice = AVCaptureDevice.devices(for: .video).first(where: { $0.position == self.captureDevicePosition }),
             let captureDeviceInput = try? AVCaptureDeviceInput(device: captureDevice)
         else {
             return

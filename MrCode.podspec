@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MrCode'
-  s.version          = '0.1.0'
+  s.version          = '0.2.0'
   s.summary          = 'A simple Swift way to represent and scan machine readable codes.'
 
 # This description is used to generate tags and improve search results.
