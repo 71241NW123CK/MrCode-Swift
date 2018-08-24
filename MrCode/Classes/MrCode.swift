@@ -274,7 +274,8 @@ public class MrCodeScanner: UIView {
 
 extension MrCodeScanner: AVCaptureMetadataOutputObjectsDelegate {
     public func metadataOutput(_ output: AVCaptureMetadataOutput, didOutput metadataObjects: [AVMetadataObject], from connection: AVCaptureConnection) {
-        let metadataMachineReadableCodeObjectList = metadataObjects.flatMap { $0 as? AVMetadataMachineReadableCodeObject }
+        let metadataMachineReadableCodeObjectList = metadataObjects.compactMap { $0 as? AVMetadataMachineReadableCodeObject }
+
         guard
             let firstMetadataMachineReadableCodeObject = metadataMachineReadableCodeObjectList.first,
             let mrCode = MrCode(avMetadataMachineReadableCodeObject: firstMetadataMachineReadableCodeObject)
